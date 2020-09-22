@@ -1,0 +1,108 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Privat\Visual Basic\Useless\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Programmer\Exhedra\PSC\2002VB\tabctl32.ocx=
+C:\Programmer\Fælles filer\System\ado\msado25.tlb=
+C:\Privat\Download\MyODBC-3.51.06.exe=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Privat\Download\MyODBC-3.51.06.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Privat\Visual Basic\Useless\Mysql Admin.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Programmer\Fælles filer\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Programmer\Exhedra\PSC\2002VB\tabctl32.ocx=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Privat\Download\MyODBC-3.51.06.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Privat\Visual Basic\Useless\Mysql Admin.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Programmer\Fælles filer\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Programmer\Exhedra\PSC\2002VB\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmer\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Privat\Download\MyODBC-3.51.06.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Privat\Visual Basic\Useless\Mysql Admin.exe=No
+C:\Privat\Download\MyODBC-3.51.06.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MYSQLADMIN
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Cintix
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Cintix]
+Icon1="Mysql Admin.exe"
+Title1=MYSQLADMIN
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=MyODBC-3.51.06.exe
+Title2=Install MYSQL support
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Privat\Visual Basic\Useless\Package
+ProjectFolder=C:\Privat\Visual Basic\Useless
+ServerSideCab=
+File1=C:\Privat\Visual Basic\Useless\Package\setup.exe
+File2=C:\Privat\Visual Basic\Useless\Package\Setup.Lst
+File3=C:\Privat\Visual Basic\Useless\Package\Mysql Admin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
